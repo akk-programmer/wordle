@@ -1,0 +1,61 @@
+input[type="text"] {
+    width: 6vw;
+    height: 6vw;
+    margin: 1px;
+    font-size: 7vw;
+    text-align: center;
+    font-family: copperplate;
+    border-radius: 5px;
+    border: 2px gainsboro solid;
+    box-shadow: 0.5px 0.5px 0.5px 0 rgba(1, 1, 1);
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+#input-container {
+    padding: 5px;
+    display: grid;
+}
+
+body {
+    padding: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+
+.green {
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+}
+
+.grey {
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
+}
+
+#header {
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+body {
+    background-color: white;
+}
+
+#mode, #again {
+    background-color: gainsboro;
+    border: none;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
